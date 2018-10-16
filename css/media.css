@@ -1,0 +1,186 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+.logo_official{
+	text-align: center;
+}
+.logo_official a{
+	margin: 0;
+}
+.anons .numb_line .text_wrap{
+	width: 58%;
+	margin-left: 10px;
+}
+.person p{
+	font-size: 14px;
+}
+.subside p{
+	font-size: 14px;
+}
+.subside .subside_mail a{
+	font-size: 14px;
+}
+.stat_block dl dt, .stat_block dl dd{
+	width: 48%;
+}
+.main_news .item .text_wrap h3{
+	width: 80%;
+}
+.main_news .item .text_wrap h3{
+	font-size: 12px;
+}
+.main_news .item .text_wrap .numb_line{
+	height: 100px;
+}
+.overlay h2{
+    width: 88%;
+    font-size: 17px;
+    margin-left: 10px;
+}
+.owl-dot{
+	width: 96px !important;
+	height: 60px !important;
+}
+.gallery_banner .img_wrap{
+	height: auto;
+}
+.top_mnu ul li{
+	padding: 0 15px;
+
+}
+.top_mnu ul li a{
+	font-size: 13px;
+}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+.overlay h2{
+		width: 80%;
+    font-size: 14px;
+    margin-left: 10px;	
+}
+.overlay{
+	padding-bottom: 72px;
+}
+.owl-dot{
+    width: 60px !important;
+    height: 40px !important;	
+}
+.footer_adres,.footer_contacts{
+	margin: 0;
+}
+.top_mnu ul li{
+	padding: 0 6px;
+}
+.top_mnu ul li a{
+	font-size: 11px;
+}
+.category{
+	margin-bottom: 30px;
+}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+.main_news .item .text_wrap h3{
+	width: 78%;
+}
+.anons .numb_line .text_wrap{
+	width: 74%;
+}
+.motion{
+	text-align: center;
+}
+.gallery .line{
+    width: 45px;
+    height: 55px;
+}
+.gallery .line strong{
+	font-size: 24px;
+	line-height: 14px;
+}
+.gallery .line span{
+	font-size: 10px;
+}
+.overlay h2{
+	width: 84%;
+}
+.overlay{
+	padding-bottom: 68px;
+}
+.copy,.develope{
+	text-align: center;
+	margin-top: 10px;
+}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+.main_title h1{
+	font-size: 22px;
+}
+.search form{
+	width: 260px;
+}
+.overlay{
+    border-radius: 13px;
+    height: 100%;
+    padding-bottom: 0;
+    padding: 0;	
+}
+.gallery .line{
+	display: none;
+}
+.owl-dot{
+	margin-bottom: 3px;
+	width: 30% !important;
+}
+.main_news .col-xs-6{
+	width: 262px;
+	margin-bottom: 10px;
+}
+.pagination a{
+	font-size: 8px;
+	margin: 0 1px;
+}
+.anons .numb_line .text_wrap{
+	width: 70%;
+}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
